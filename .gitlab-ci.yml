@@ -1,0 +1,13 @@
+pages:
+  stage: deploy
+  image: ruby:2.3
+  script:
+    - gem install jekyll-paginate
+    - gem install jekyll-gist
+    - gem install jekyll
+    - jekyll build -d public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
