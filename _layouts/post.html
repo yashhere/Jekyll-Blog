@@ -1,0 +1,42 @@
+---
+layout: default
+---
+{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+{% if minutes == 0 %}
+{% assign minutes = 1 %}
+{% endif %}
+
+<div class="header post">
+    <h1>{{ page.title }}</h1>    
+</div>
+
+
+<section class="container1">
+  <div class="content">
+      <div class="meta">
+          <p>by {{ site.owner.name }} - on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></p>
+          <p>
+            {% if page.minutes %}
+                {{ page.minutes }} {{ site.text.post.minute_read }}
+            {% else %}
+                {{ minutes }} {{ site.text.post.minute_read }}
+            {% endif %} min read
+          </p>
+      </div>
+      <br><br>
+    <div style="font-family: 'PT Serif">
+      {{ content }}
+    </div>
+  </div>
+</section>
+
+{% include author_bio.html %}
+
+{% if site.disqus_shortname and page.comments == true %}
+    <section class="comments">
+        <h1 class="comments-header">Comments</h1>
+        <div id="disqus_thread">
+            {% include disqus_comments.html %}
+        </div>
+    </section>
+{% endif %}
