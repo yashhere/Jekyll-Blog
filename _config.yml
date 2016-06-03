@@ -7,6 +7,8 @@ share:            false
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 baseurl: /
+url: https://theyashagarwal.me
+enforce_ssl: theyashagarwal.me
 
 # Owner/author information
 owner:
@@ -26,7 +28,7 @@ highlighter: rouge
 line_numbers: true
 incremental: true
 markdown:    kramdown
-gems:    
+gems:
     - jekyll-paginate
     - jekyll-gist
 paginate:    5
