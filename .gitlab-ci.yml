@@ -1,13 +1,15 @@
-pages:
-  stage: deploy
-  image: ruby:2.3
   before-script:
     - gem install jemoji
     - gem install jekyll-paginate
     - gem install jekyll-gist
     - gem install jekyll
     
-  stages:
+pages:
+  stage: deploy
+  image: ruby:2.3
+
+    
+  script:
     - jekyll build -d public/
   artifacts:
     paths:
