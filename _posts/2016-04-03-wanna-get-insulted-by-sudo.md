@@ -51,4 +51,4 @@ Once you have saved the file, go to terminal and type the following command to c
 
 <code style="margin-left: 25px;">sudo -k</code>
 
-That&#8217;s all. Use any command with sudo. Deliberately type wrong password and enjoy abusing&#8230;<img style="margin-left: 3px; margin-right: 3px; vertical-align: middle; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;" src="http://theyashagarwal.me/blog/wp-content/plugins/wp-emoji-one/icons/1F609.png" alt="" width="16" height="16" />
+That&#8217;s all. Use any command with sudo. Deliberately type wrong password and enjoy abusing&#8230;
