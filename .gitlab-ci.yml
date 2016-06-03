@@ -2,6 +2,7 @@ pages:
   stage: deploy
   image: ruby:2.3
   script:
+    - gem install jemoji
     - gem install jekyll-paginate
     - gem install jekyll-gist
     - gem install jekyll
