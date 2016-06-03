@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/yash2696
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://theyashagarwal.me
+  * I am yash2696 (https://keybase.io/yash2696) on keybase.
+  * I have a public key with fingerprint 492E CEDF A3A6 A010 EC35  F7B6 11A4 3439 D828 9356
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a746550b20f663291bb68a3643cad6a57117c746fd69020ca4874e32dbdf1a910a",
+            "fingerprint": "492ecedfa3a6a010ec35f7b611a43439d8289356",
+            "host": "keybase.io",
+            "key_id": "11a43439d8289356",
+            "kid": "0101a746550b20f663291bb68a3643cad6a57117c746fd69020ca4874e32dbdf1a910a",
+            "uid": "74081f1d601b0abd0eeab064b4ed7b19",
+            "username": "yash2696"
+        },
+        "service": {
+            "hostname": "theyashagarwal.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1464964317,
+    "expire_in": 157680000,
+    "prev": "b75191021204e6cea6943647331fbdf07e46466ac5523fb257c3d142f9d41843",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMItAnicrZJrSBRRFMdXTSND0MwPQc+xIGq1uXPv3NnZAq2IICq0B0YE670zd3Yn
+191tZtR8VWRFD3tAGT0UdAWprKBUoj70wqI06AWZgmZgfhCKIiGJiu5Ifetj98vl
+nvs7//M/h9OdluRJTeh63f4V/hiqTOh90FTmKSo8M1gt0KheKfirhRI2ebGwzmwn
+UGLqgl8QgQiIgrAsi1QSDYyhpAJKsY9AjKBGdExkBQBF44yhY1WURI0gn4IYlHSq
+G4CoQCSCVzDMSJBZMcuMOFwWqRLTmG4QSDDhNZgGZUOhGACCIIKq7pN8KpQxTwxF
+bTeDm6PEZrlmlMf4IzBp7x/8f/ZdNimnINEHDKBjEVCRUF1kjFARI4qYrlCguqDN
+rAgpZZyuJHZIwioWar0Cj5abGnMH63byh3BCzIVIkFgVJJzLY14hZkWdqBYN8++Q
+48Rsv5vuVMZcvoLRwB+lADUjOh8mzyhnlm1GI4IfcFJzTFcaIIxU3iJQvALbHTMt
+FjBdQlawT+THrcPKuSRVZMB7lIAkIoY1RrCK+GwUCIHBByAqjCthTDRZlqBBJVnR
+oA6QZKg6Aj4EBbe3XZEo1wbcJwlyTdsMRohTZjGh9uH9HVM8CamelOREd8s8qdPS
+/+5ezbSpv3DFq/iynmf5gbP+qvFqGN/6/fDKnGBGVsdY0rLuwLakm/vrakP06ZTR
+3sT1q8363PYTdxq2HBte1Nk20rJzZvKo5C3sCZcWHe+++s5zWvpQlZOVgtf2pywc
+uFxamN1QcGPsVM3t4ddzb1mPxLr3Q8LFkwfPD7ztKR5Yd+9KU5K9YTNbMGvw6J7i
+710mrkXb8w40V2PP0rzC7OTPG99MHIqvedFc3t/ae/fDly+dM1ric8H8tgwndXFf
+a+vHFQVWeHzO83PvX04UjVzvG3+cmQahvCpf9Xfte3IiPTn2ae+3JZsuPFue0cgW
+Tp+YN29+WWPmqLfqpzm74dK1rI76vp7FOUd+A4xyP+8=
+=2YDJ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yash2696
+
+==================================================================
