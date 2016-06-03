@@ -40,4 +40,4 @@ I still stand by my platitude that
 
 > **Don&#8217;t put anything in your configuration file you don&#8217;t understand!**
 
-That&#8217;s all for today. Thanks for reading&#8230;<img style="margin-left: 3px; margin-right: 3px; vertical-align: middle; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;" src="http://theyashagarwal.me/blog/wp-content/plugins/wp-emoji-one/icons/1F600.png" alt="emoji" width="16" height="16" />
+That&#8217;s all for today. Thanks for reading&#8230;
