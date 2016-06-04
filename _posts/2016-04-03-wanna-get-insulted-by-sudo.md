@@ -3,7 +3,6 @@ title: Wanna get insulted by sudo
 date: 2016-04-03T12:20:36+00:00
 author: Yash
 layout: post
-permalink: /2016/04/wanna-get-insulted-by-sudo/
 categories:
   - Linux
 comments: true
