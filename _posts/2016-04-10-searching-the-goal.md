@@ -1,5 +1,5 @@
 ---
-title: 'Searching the goal&#8230;'
+title: 'Searching the goal'
 date: 2016-04-10T00:33:16+00:00
 author: Yash
 layout: post
@@ -14,7 +14,7 @@ That&#8217;s it. He decided his fate.
 
 So here comes the day
 
-**An accident**
+## An accident
 
 After that day, he got into a coaching institute which promised a sure rank in JEE. He was told that he would have to study consistently and regularly. The boy, being a determined one, started studying day and night.
 
@@ -28,7 +28,7 @@ He joined another institute in his city. Again same routine, studying day and ni
 
 But somehow he got a decent rank in JEE Mains thanks to his good performance in board exams.
 
-**A Disaster**
+## A Disaster
 
 Now he had to face one more question. Which college and which branch? For him, answer was simple. Go to any South Indian college thanks to influence of his cousins on him(who were very successful in their lives, of course!). He chose Computer Science and Engineering because
 
@@ -38,7 +38,7 @@ Now he had to face one more question. Which college and which branch? For him, a
 
 So decision was clear. He packed his bag and left home for some 2200 km far situated NIT for comp-sci branch.
 
-**The coding Disaster**
+## The Coding Disaster
 
 He reached the college. He loved new people, new place, new environment, everything was new, right!. Studies started. He got good grades initially until the real coding and computer science related stuff started as courses. His grades fell drastically, his morals too. He got good marks enough to pass the courses. He tried giving his best but all that seems so lost to him, like they wouldn&#8217;t stay inside his head.
 
@@ -46,4 +46,4 @@ That guy is now about to complete his 2nd year and just thinking what went wrong
 
 At last one more year is coming, and it&#8217;s story will also come here next year.
 
-<a href="https://www.quora.com/What-were-you-once-that-youll-never-be-again/answer/Nishant-Kumar-187?srid=8MaF&#038;share=8df79cac" target="_blank">Inspired by this Quora Post</a>
+<a href="https://www.quora.com/What-were-you-once-that-youll-never-be-again/answer/Nishant-Kumar-187?srid=8MaF&#038;share=8df79cac" target="_blank" style="text-decoration: underline;">Inspired by this Quora Post</a>
