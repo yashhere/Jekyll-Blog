@@ -17,6 +17,7 @@ a:hover {
 }
 
 .name {
+/*    border: 1px solid red;*/
     font-size: 3em;
     font-family: Oxygen;
 }
@@ -121,12 +122,13 @@ a:hover {
 .post {
     margin-top: 7%;
     margin-bottom: 7%;
-    font-family: Raleway;
+    font-family: Cabin;
     font-size: 1.4em;
+    letter-spacing: 2px;
 }
 
 .post > h1 {
-    font-weight: bolder;
+    font-weight: 700;
     text-transform: uppercase;
     margin-bottom: -20px;
 }
@@ -215,7 +217,7 @@ a:hover {
 }
 
 .meta {
-    font-family: Raleway;
+    font-family: Oxygen;
     font-style: italic;
     font-size: 1em;
     color: #7a7a7a;
@@ -236,4 +238,38 @@ a:hover {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.navbar {
+/*    border: 1px solid red;*/
+    width: 100%;
+    text-align: center;
+    font-family: Oxygen;
+    font-size: 1em;
+}
+
+code {
+    background-color: rgba(128,128,128,0.075);
+    padding: 2px 4px;
+    font-size: 15px;
+		color: #3f3f3f;
+    font-family: 'Droid Sans Mono';
+	border-radius: 4px;
+}
+
+.post-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-link {
+    background: red;
+   text-decoration: underline;
+}
+
+blockquote {
+	background-color: rgba(128,128,128,0.05);
+		border-left: 10px solid rgba(128,128,128,0.075);
+		padding: 10px 40px;
 }
