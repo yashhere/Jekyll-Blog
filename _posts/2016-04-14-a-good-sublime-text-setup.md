@@ -3,7 +3,6 @@ title: A good Sublime Text Setup
 date: 2016-04-14T10:55:35+00:00
 author: Yash
 layout: post
-permalink: /2016/04/a-good-sublime-text-setup/
 categories:
   - Linux
 comments: true
