@@ -7,30 +7,25 @@ layout: default
 {% endif %}
 
 <div class="header post">
-    <h1>{{ page.title }}</h1>    
-</div>
-
-
-<section class="container1">
-  <div class="content">
-      <div class="meta">
-          <p>by {{ site.owner.name }} - on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></p>
-          <p>
-            {% if page.minutes %}
+    <h1>{{ page.title }}</h1>
+    <div class="meta">
+          <p>{{ site.owner.name }} / <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time> / {% if page.minutes %}
                 {{ page.minutes }} {{ site.text.post.minute_read }}
             {% else %}
                 {{ minutes }} {{ site.text.post.minute_read }}
-            {% endif %} min read
-          </p>
-      </div>
-      <br><br>
-    <div style="font-family: 'PT Serif">
+            {% endif %} min read / in {{ page.categories}}
+    </div>
+</div>
+
+<section class="container1">
+  <div class="content">
+    <div style="font-family: 'Open Sans'; font-weight: 500;">
       {{ content }}
     </div>
   </div>
 </section>
 
-{% include author_bio.html %}
+<div class="divider"></div>
 
 {% if site.disqus_shortname and page.comments == true %}
     <section class="comments">
