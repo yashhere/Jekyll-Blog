@@ -3,7 +3,6 @@ title: 'Searching the goal'
 date: 2016-04-10T00:33:16+00:00
 author: Yash
 layout: post
-permalink: /2016/04/searching-the-goal/
 categories:
   - Life
 comments: true
