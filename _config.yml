@@ -56,7 +56,7 @@ kramdown:
 
 pages_list:
   Archive: '/archive'
-  Behind_The_Scenes: '/bts'
+  Behind_The_Scenes: '/Behind_the_scenes'
   Feed: '/atom.xml'
   
 include: [".htaccess"]
