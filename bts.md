@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Behind The Scenes
+permalink: /Behind_the_scenes
 ---
 
 Welcome to theyashagarwal.me!
