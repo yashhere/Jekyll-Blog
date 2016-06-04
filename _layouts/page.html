@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+{% if minutes == 0 %}
+{% assign minutes = 1 %}
+{% endif %}
+
+<div class="header post">
+    <h1>{{ page.title }}</h1>
+</div>
+
+<section class="container1">
+  <div class="content">
+    <div style="font-family: 'Open Sans'; font-weight: 500;">
+      {{ content }}
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
