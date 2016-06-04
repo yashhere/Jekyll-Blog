@@ -34,7 +34,7 @@ Here is my Settings &#8211; User file. Feel free to take insiparation from it, a
 
 &nbsp;
 
-_**Wrapping It Up**_
+## Wrapping It Up
 
 I still stand by my platitude that
 
