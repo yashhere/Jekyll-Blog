@@ -1,7 +1,7 @@
-title:            Yash
-description:      "A new blogger"
+title:            Yash Agarwal
+description:      "Yash's Blog"
 # logo:             logo.png
-disqus_shortname: imyash
+disqus_shortname: theyashagarwal
 share:            false
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
@@ -11,10 +11,9 @@ url: https://theyashagarwal.me
 enforce_ssl: theyashagarwal.me
 
 # Owner/author information
-owner:
-  name:           Yash Agarwal
-  # avatar:         hmfaysal.jpg
-  email:          yashagarwaljpr@gmail.com
+author :
+  name :           Yash Agarwal
+  email :          yashagarwaljpr@gmail.com
 
 google_analytics:   UA-75475356-1
 #google_verify:
@@ -31,11 +30,12 @@ markdown:    kramdown
 gems:
     - jekyll-paginate
     - jekyll-gist
+    - jemoji
 paginate:    5
 paginate_path: "./blog/page/:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink:   /blog/:categories/:title
 
 kramdown:
   auto_ids: true
@@ -43,6 +43,8 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
+  input: GFM
+  hard_wrap: false
 
   coderay:
     coderay_line_numbers:
@@ -51,89 +53,10 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
-prose:
-  rooturl: '_posts'
-  # siteurl: 'http://hmfaysal.github.io/Notepad/'
-  # relativeLinks: 'http://hmfaysal.github.io/Notepad/links.jsonp'
-  media: 'images'
-  metadata:
-    _posts:
-      - name: "published"
-        field:
-          label: "Published"
-          element: "checkbox"
-          value: "true"
-      - name: "layout"
-        field:
-          element: "hidden"
-          label: "Layout"
-          value: "post"
-      - name: "title"
-        field:
-          label: "Title"
-          element: "text"
-          value: "An Awesome Headline!"
-      - name: "description"
-        field:
-          element: "text"
-          label: "Description"
-          placeholder: "Enter Post Description"
-      - name: "headline"
-        field:
-          element: "text"
-          label: "beadline"
-          placeholder: "Enter Post Headline"
-      - name: "modified"
-        field:
-          element: "text"
-          label: "Has this page been modified?"
-          placeholder: "YYYY-MM-DD"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Add categories"
-          placeholder: "Choose categories"
-          value: personal
-          options:
-            - name: "Personal"
-              value: personal
-            - name: "Engineering"
-              value: engineering
-            - name: "Physics"
-              value: physics
-            - name: "Psychology"
-              value: psychology
-            - name: "Interesting"
-              value: interesting
-            - name: "Web-Development"
-              value: webdevelopment
-          alterable: true
-      - name: "tags"
-        field:
-          element: "text"
-          label: "Tags"
-          placeholder: "Enter tags, separated by spaces"
-      - name: "imagefeature"
-        field:
-          element: "text"
-          label: "Featured Image"
-          placeholder: "somefile.jpg"
-      - name: "mathjax"
-        field:
-          element: "checkbox"
-          label: "MathJax"
-          value: false
-      - name: "featured"
-        field:
-          element: "checkbox"
-          label: "Featured?"
-          value: false
-      - name: "comments"
-        field:
-          element: "checkbox"
-          label: "Comments"
-          value: true
-
-
+pages_list:
+  Archive: '/archive'
+  Behind_The_Scenes: '/bts'
+  Feed: '/atom.xml'
+  
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
