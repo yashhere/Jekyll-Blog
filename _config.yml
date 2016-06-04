@@ -1,26 +1,16 @@
 title:            Yash Agarwal
 description:      "Yash's Blog"
-# logo:             logo.png
 disqus_shortname: theyashagarwal
-share:            false
-# Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
-# whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
+
 baseurl: theyashagarwal.me
 url: https://theyashagarwal.me
 enforce_ssl: theyashagarwal.me
 
-# Owner/author information
+# Author information
 author :
   name :           Yash Agarwal
   email :          yashagarwaljpr@gmail.com
 
-google_analytics:   UA-75475356-1
-#google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-#bing_verify:
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Kolkata
 future:      true
 highlighter: rouge
@@ -31,11 +21,9 @@ gems:
     - jekyll-paginate
     - jekyll-gist
     - jemoji
-paginate:    5
-paginate_path: "./blog/page/:num"
+paginate:    4
+paginate_path: "/:num"
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-# permalink : pretty
 permalink:   /:title/
 
 kramdown:
