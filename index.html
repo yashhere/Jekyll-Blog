@@ -3,12 +3,22 @@ layout: default
 title: Yash's Blog
 ---
 
+<!-- ==========================================================================
+__  __  ____   _____   __  __
+\ \/ / /   |  / ___/  / / / /
+ \  / / /\ |  \__ \  / /_/ /
+ / / / ___ | ___/ / / __  /
+/_/ /_/  |_//____/ /_/ /_/
+
+=========================================================================== -->
+
 <section>
   <div class="container">
     <div class="row">
       <div class="text-center">
         <ul class="list">
-           {% for post in paginator.posts %}
+					<h1 class="recent">Recent Posts</h1>
+           {% for post in site.posts limit:5 %}
             <li class="description">
                 <div class="datetime">
                     <span class="day">
@@ -34,8 +44,9 @@ title: Yash's Blog
     </div>
   </div>
     
+<!--
     <div class="navigation">
-    <!-- Pagination links -->
+     Pagination links 
         <div class="pagination">
           {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path }}" class="previous">Newer</a>
@@ -50,4 +61,5 @@ title: Yash's Blog
           {% endif %}
         </div>   
     </div>
+-->
 </section>
