@@ -6,13 +6,17 @@
 <body>
     <div class="header">
         <h3 class="navbar">
-            <a onclick="window.history.back()" style="cursor: pointer;">Back</a>
+					<a href="/index.html" class="logo">Yash Agarwal</a>
+<!--            <a onclick="window.history.back()" style="cursor: pointer;">Back</a>-->
+					<div class="nav">
             {% for page in site.pages_list %}
               &nbsp;&nbsp;&nbsp;
               <a href="{{ page[1] }}">{{ page[0] }}</a>
             {% endfor %}
+					</div>
         </h3>
-        <h1 class="name"><a href="/blog/index.html">Yash's Blog</a></h1>
+				<div class="clearfix"></div>
+        <h1 class="name">Yash's Blog</h1>
         <ul class="social">
             <li><a href="https://www.quora.com/profile/Yash-Agarwal-140" target="_blank"><span class="icon-quora"></span></a></li>
             <li><a href="https://www.facebook.com/people/Yash-Agarwal/100001324105675" target="_blank"><span class="icon-facebook"></span></a></li>
