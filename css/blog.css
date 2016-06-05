@@ -8,12 +8,12 @@ a {
     color: Black;
     text-decoration: none;
     transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: linear;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
 }
 
 a:hover {
-    color: #ff1a29;
+    color: #268bd2;
 }
 
 .name {
@@ -272,4 +272,48 @@ blockquote {
 	background-color: rgba(128,128,128,0.05);
 		border-left: 10px solid rgba(128,128,128,0.075);
 		padding: 10px 40px;
+}
+
+.post-tag: before {
+	background-image: 
+}
+
+.category {
+	font-weight: bolder;
+	padding: 5px 10px;
+	background-color: rgba(106,159,181,0.15);
+	border-radius: 5px;
+	font-size: 80%;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+	color: #268bd2;
+}
+
+.category:hover {
+	color: white;
+	background-color: #268bd2;
+}
+
+
+.tags-section {
+	font-weight: bolder;
+}
+
+.post-date {
+	font-size: 65%;
+}
+
+.logo {
+	width: 20%;
+	float: left;
+}
+
+.nav {
+	float: left;
+}
+
+.recent {
+/*	border: 1px solid red;*/
+	padding-left: 18%;
 }
