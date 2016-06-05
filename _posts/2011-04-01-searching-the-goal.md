@@ -3,8 +3,8 @@ title: 'dasd'
 date: 2011-04-01T00:33:16+00:00
 author: Yash
 layout: post
-categories:
-  - Life
+categories: Life
+tags: adad, dae
 comments: true
 ---
 A boy, probably of age 16, just cleared his 10th board exam. He saw people working on computers and that fascinated him. So he had only one ambition. You got it, right? One fine day, suddenly his friend&#8217;s mother asked, &#8220;So what about the future? You are going to enter in class 11th. It is the right time to decide about your future. What do you want to become, a doctor or an engineer?&#8221; The boy had no clue how big that question was. What the cost would have been. He simply nodded and said, &#8220;I like computers very much, so I would go for engineering.&#8221;
