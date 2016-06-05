@@ -1,3 +1,7 @@
+body {
+	font-weight: bold;
+}
+
 .header {
     width: 80%;
     margin: auto;
@@ -5,6 +9,14 @@
 }
 
 a {
+    color: #268bd2;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+li a, h3 a {
     color: Black;
     text-decoration: none;
     transition-property: all;
