@@ -18,11 +18,11 @@ line_numbers: true
 incremental: true
 markdown:    kramdown
 gems:
-    - jekyll-paginate
+#    - jekyll-paginate
     - jekyll-gist
     - jemoji
-paginate:    4
-paginate_path: "/:num"
+#paginate:    4
+#paginate_path: "/page:num/"
 
 permalink:   /:title/
 
@@ -43,8 +43,14 @@ kramdown:
     coderay_css: class
 
 pages_list:
+  About: '/about'
+  Academics: '/academics'
   Archive: '/archive'
-  Behind_The_Scenes: '/Behind_the_scenes'
+  Categories: '/categories'
+#  Tags: '/tags'
+  Almanac: '/almanac'
+  CV: '/resume.pdf'
+  Behind The Scenes: '/Behind_the_scenes'
   Feed: '/atom.xml'
   
 include: [".htaccess"]
