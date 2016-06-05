@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Archive
-permalink: /archive/
+<!--permalink: /archive/-->
 ---
 
 
 <div class="container">
 <div class="row">
   <div class="text-center">
-    <ul class="list">
+    <ul class="list" style="margin-top: -2%; margin-bottom: -2%;">
        {% for post in site.posts %}
         <li class="description">
             <div class="datetime">
@@ -25,7 +25,6 @@ permalink: /archive/
                         {{ post.title }}
                     </a>
                 </h2>
-<!--                <p class="content">{{ post.content | strip_html | truncatewords:40 }}</p>-->
             </div>
         </li>
         <div class="divider"></div>
