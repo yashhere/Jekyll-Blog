@@ -21,7 +21,7 @@ title: Archive
             </div>
             <div class="post-details">
                 <h2 class="title">
-                    <a href="{{ site.url }}{{ post.url }}">
+                    <a href="{{ post.url }}">
                         {{ post.title }}
                     </a>
                 </h2>
