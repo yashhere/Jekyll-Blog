@@ -57,7 +57,7 @@ a:hover {
     font-family: Montserrat;
     font-size: 3em;
     display: block;
-    color: #e51843;
+    color: #268bd2;
 }
 
 .month-year {
@@ -316,4 +316,10 @@ blockquote {
 .recent {
 /*	border: 1px solid red;*/
 	padding-left: 18%;
+}
+
+.error {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
 }
