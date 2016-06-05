@@ -6,15 +6,15 @@ title: Academics
 
 I am doing my bachelor's from department of Computer Science & Engineering at National Institute of Technology.
 
-## Major Courses:
+### Major Courses:
 
-### Computer Science:
+#### Computer Science:
 - Foundations of Computing
 - Foundations of Programming
 - Data Structures and Algorithms
 - Computer Organization
 
-### Mathematics:
+#### Mathematics:
 - Calculus
 - Linear Algebra
 - Abstract Algebra
