@@ -15,7 +15,7 @@ timezone:    Asia/Kolkata
 future:      true
 highlighter: rouge
 line_numbers: true
-incremental: true
+#incremental: true
 markdown:    kramdown
 gems:
 #    - jekyll-paginate
@@ -36,7 +36,7 @@ kramdown:
   hard_wrap: false
 
   coderay:
-    coderay_line_numbers:
+    coderay_line_numbers: true
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10

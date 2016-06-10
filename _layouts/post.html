@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+{% assign minutes = content | strip_html | number_of_words | divided_by: 140 %}
 {% if minutes == 0 %}
 {% assign minutes = 1 %}
 {% endif %}
@@ -27,6 +27,7 @@ layout: default
 
 <div class="divider"></div>
 
+<!--
 {% if site.disqus_shortname and page.comments == true %}
     <section class="comments">
         <h1 class="comments-header">Comments</h1>
@@ -34,4 +35,4 @@ layout: default
             {% include disqus_comments.html %}
         </div>
     </section>
-{% endif %}
+{% endif %}-->
