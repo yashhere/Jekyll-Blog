@@ -1,0 +1,146 @@
+/***************
+GLOBAL STYLES
+***************/
+
+/* A better box-sizing practice http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: $sans-serif;
+    line-height: 1.75;
+    font-size  : 112.5%; // 18px base font size
+    color      : $black;
+    overflow-x : hidden;
+}
+
+// Text Selection Styling
+::-moz-selection {
+    background: $primary-color;
+    color     : white;
+}
+
+::selection {
+    background: $primary-color;
+    color     : white;
+}
+
+// Media Styling
+img,video,audio,iframe,object{
+    max-width: 100%;
+}
+
+a {
+    color          : $link-color;
+    text-decoration: none;
+
+    &:hover {
+        color: #268bd2;
+    }
+}
+
+ul {
+    margin: 0;
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    li {
+        margin: 0;
+        display: inline-block;
+        padding: 0 gutter();
+    }
+}
+
+.header {
+    /* border: 1px solid red; */
+    @include container;
+    .menu-btn {
+        @include container(100%);
+        div {
+            @include span(1 of 12 last);
+            line-height: 1.2;
+            font-size: 1em;
+            z-index: 99;
+            margin: 1em 5em;
+        }
+
+        span {
+            display: block;
+            width: 2em;
+            height: 0.2em;
+            margin: 0.25em 0;
+            background: rgb(0,0,0);
+            z-index: 99;
+        }
+    }
+
+    .responsive-menu{
+        display: none;
+        ul {
+            margin: 0;
+            display: block;
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            li {
+                margin: 0;
+                display: block;
+                padding: 0 gutter();
+                background: $background-color;
+                border-bottom: 2px solid lighten($background-color, 5%);
+            }
+        }
+        @include transition(all 0.2s ease-in-out);
+    }
+
+    .expand {
+        display: block !important;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 0 gutter();
+    }
+}
+
+.content {
+    @include container(630px);
+    .recent {
+        @include container(50%);
+        border-bottom: 3px solid $border-bottom;
+    }
+
+    .day {
+        font-family: Montserrat;
+        font-weight: bolder;
+        font-size: 3em;
+        display: block;
+        color: #268bd2;
+        margin-bottom: -0.6em;
+    }
+
+    .month-year {
+        font-family: Montserrat;
+        font-size: 0.7em;
+        font-weight: bolder;
+    }
+
+    .title {
+        font-family: Montserrat;
+        font-weight: bolder;
+    }
+}
+
+.divider {
+    @include container(100%);
+    margin: 3em 0;
+    height: 1px;
+    background: $primary-color;
+}

@@ -1,40 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    {% include head.html %}
-</head>
+{% include head.html %}
+
 <body>
-    <div class="header">
-        <h3 class="navbar">
-					<a href="/index.html" class="logo">Yash Agarwal</a>
-<!--            <a onclick="window.history.back()" style="cursor: pointer;">Back</a>-->
-					<div class="nav">
-            {% for page in site.pages_list %}
-              &nbsp;&nbsp;&nbsp;
-              <a href="{{ page[1] }}">{{ page[0] }}</a>
-            {% endfor %}
-					</div>
-        </h3>
-				<div class="clearfix"></div>
-        <h1 class="name">Yash's Blog</h1>
-        <ul class="social">
-            <li><a href="https://www.quora.com/profile/Yash-Agarwal-140" target="_blank"><span class="icon-quora"></span></a></li>
-            <li><a href="https://www.facebook.com/people/Yash-Agarwal/100001324105675" target="_blank"><span class="icon-facebook"></span></a></li>
-            <li><a href="https://plus.google.com/+yashagarwal02" target="_blank"><span class="icon-google-plus"></span></a></li>
-            <li><a href="https://github.com/yash2696" target="_blank"><span class="icon-github"></span></a></li>
-						<li><a href="https://gitlab.com/yash2696" target="_blank"><span class="icon-gitlab"></span></a></li>
-            <li><a href="https://in.linkedin.com/in/theyashagarwal" target="_blank"><span class="icon-linkedin"></span></a></li>
-            <li><a href="https://twitter.com/theyashagarwal" target="_blank"><span class="icon-twitter"></span></a></li>
-            <li><a href="https://instagram.com/yum_yash" target="_blank"><span class="icon-instagram"></span></a></li>
-            <li><a href="https://keybase.io/yash2696" target="_blank"><span class="icon-keybase"></span></a></li>
-        </ul>
-    </div>
-
-    <div class="divider"></div>
-
-{{ content }}
-<!-- jQuery -->
+    {% include header.html %}
+    <div class="content">
+      <div class="container">
+         {{ content }}
+      </div>
+   </div>
     {% include google_analytics.html %}
-    <script src="/js/jquery-2.1.1.js"></script>
+    {% include scripts.html %}
 </body>
 </html>
