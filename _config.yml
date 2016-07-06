@@ -11,6 +11,7 @@ author :
   name :           Yash Agarwal
   email :          yashagarwaljpr@gmail.com
 
+google_analytics: "UA-75475356-1"
 timezone:    Asia/Kolkata
 future:      true
 highlighter: rouge
@@ -52,6 +53,6 @@ pages_list:
   CV: '/resume.pdf'
   Behind The Scenes: '/Behind_the_scenes'
   Feed: '/atom.xml'
-  
+
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

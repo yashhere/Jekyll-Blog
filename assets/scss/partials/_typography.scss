@@ -1,0 +1,16 @@
+body {
+    font-family: Oxygen;
+    font-size: 1em;
+    line-height: 1.45em;
+    color: green;
+}
+
+@media (min-width: 43.75em) {
+  body {
+    font-size: 1em;
+    /* equivalent to 16px */
+    line-height: 1.375;
+    /* equivalent to 22px */
+    color: red;
+  }
+}

@@ -4,4 +4,6 @@ _site/
 *.log
 *.psd
 *.db
-php/
+_site
+.DS_Store
+.ruby-version
