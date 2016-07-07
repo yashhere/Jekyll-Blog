@@ -5,7 +5,7 @@ title: Archive
 ---
 
 
-<div class="container">
+<div class="archive">
 <div class="row">
   <div class="text-center">
     <ul class="list" style="margin-top: -2%; margin-bottom: -2%;">

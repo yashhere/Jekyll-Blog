@@ -10,7 +10,6 @@
         <div class="responsive-menu">
             <ul>
                 {% for page in site.pages_list %}
-                  <!-- &nbsp;&nbsp;&nbsp; -->
                   <li><a href="{{ page[1] }}">{{ page[0] }}</a></li>
                 {% endfor %}
             </ul>
@@ -20,7 +19,7 @@
     <div class="clearfix"></div>
 
     <div class="logo">
-        <h1 class="name">Yash's Blog</h1>
+        <h1 class="name"><a href="{{ site.url }}">Yash's Blog</h1>
 
         <ul class="social">
             <li>
@@ -72,4 +71,4 @@
     </div>
 </div>
 
-<div class="divider"></div>
+    <div class="hr">&nbsp</div>

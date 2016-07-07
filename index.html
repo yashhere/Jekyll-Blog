@@ -10,53 +10,54 @@ __   __ _    ____  _   _      _    ____    _    ______        ___    _
   | |/ ___ \ ___) |  _  |  / ___ \ |_| |/ ___ \|  _ < \ V  V / ___ \| |___
   |_/_/   \_\____/|_| |_| /_/   \_\____/_/   \_\_| \_\ \_/\_/_/   \_\_____|
 =========================================================================== -->
-
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="text-center">
-        <ul class="list">
-					<h1 class="recent">Recent Posts</h1>
-           {% for post in site.posts limit:5 %}
-            <li class="description">
-                <div class="datetime">
-                    <span class="day">
-                        {{ post.date | date: "%d" }}
-                    </span>
-                    <span class="month-year">
-                        {{ post.date | date: "%B %Y" }}
-                    </span>
-                </div>
-                <div class="post-details">
-                    <h2 class="title">
-                        <a href="{{ base.url }}{{ post.url }}">
-                            {{ post.title }}
-                        </a>
-                    </h2>
-                    <p class="content">{{ post.content | strip_html | truncatewords:40 }}</p>
-                </div>
-            </li>
-            <div class="divider"></div>
-           {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-
-    <!-- <div class="navigation">
-     Pagination links
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="previous">Newer</a>
-          {% else %}
-            <p class="previous" style="background: #fff;">Newer</p>
-          {% endif %}
-          <p class="page_number" style="background: #fff;">Page: {{ paginator.page }} of {{ paginator.total_pages }}</p>
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="next">Older</a>
-          {% else %}
-            <p class="next" style="background: #fff;">Older</p>
-          {% endif %}
+<div class="content">
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <ul class="list">
+    					<div class="recent">Recent Posts</div>
+               {% for post in site.posts limit:5 %}
+                <li class="description">
+                    <div class="datetime">
+                        <span class="day">
+                            {{ post.date | date: "%d" }}
+                        </span>
+                        <span class="month-year">
+                            {{ post.date | date: "%B %Y" }}
+                        </span>
+                    </div>
+                    <div class="post-details">
+                        <h2 class="title">
+                            <a href="{{ base.url }}{{ post.url }}">
+                                {{ post.title }}
+                            </a>
+                        </h2>
+                        <p class="post-content">{{ post.content | strip_html | truncatewords:30 }}</p>
+                    </div>
+                </li>
+                <div class="hr"></div>
+               {% endfor %}
+            </ul>
+          </div>
         </div>
-    </div> -->
-</section>
+      </div>
+
+        <!-- <div class="navigation">
+         Pagination links
+            <div class="pagination">
+              {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}" class="previous">Newer</a>
+              {% else %}
+                <p class="previous" style="background: #fff;">Newer</p>
+              {% endif %}
+              <p class="page_number" style="background: #fff;">Page: {{ paginator.page }} of {{ paginator.total_pages }}</p>
+              {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" class="next">Older</a>
+              {% else %}
+                <p class="next" style="background: #fff;">Older</p>
+              {% endif %}
+            </div>
+        </div> -->
+    </section>
+</div>

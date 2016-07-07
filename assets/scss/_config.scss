@@ -2,42 +2,20 @@
 COLOR VARIABLES
 ***************/
 
-// Better default colors
-// Cool
-$aqua:  #7FDBFF;
-$blue:  #0074D9;
-$navy:  #001F3F;
-$teal:  #39CCCC;
-$green: #2ECC40;
-$olive: #3D9970;
-$lime:  #01FF70;
-// Warm
-$yellow:  #FFDC00;
-$orange:  #FF851B;
-$red:     #FF4136;
-$fuchsia: #F012BE;
-$purple:  #B10DC9;
-$maroon:  #85144B;
-// Gray Scale
-$white:  #fff;
-$silver: #ddd;
-$grey:   #aaa;
-$black:  #111;
-
 // Color variables
-$primary-color: seagreen;
-$secondary-color: #233E5B;
-$tertiary-color: #aaa;
-$link-color: $black;
-$background-color: seagreen;
-$border-bottom: red;
-
-$bad-color: $red; // Bad color for errors, validation etc.
-$good-color: $green; // Good color for success etc.
-$info-color: $blue; // Good color for success etc.
-$warning-color: $orange; // Good color for success etc.
-$subtle-color: $grey; // Subtle color for subtle text
-
+$primary-color: #268bd2;
+$text-color: #000;
+$link-color: #e50053;
+$link-hover: darken($link-color, 5%);
+$background-color: #fdfdfd;
+$blockquote-bg: rgba(128,128,128,0.05);
+$blockquote-border: rgba(128,128,128,0.075);
+$code-bg: #eef;
+$code-color: #3f3f3f;
+$large-color: $link-hover;
+$category-text: #333;
+$category-bg: #f4f0ed;
+$archive-date: #a29f9c;
 
 /***************
 CONSISTENT SETTINGS
@@ -53,5 +31,7 @@ $line-height: 44px; // Consistent height for buttons, inputs etc.
 TYPE SETTINGS
 ***************/
 
+$dates: "Montserrat";
 $sans-serif: "Open Sans", Helvetica, Arial, sans-serif;
-$serif: "PT Serif", Georgia, Times, serif;
+$serif: "Sorts Mill Goudy", serif;
+$codes: "Source Code Pro"

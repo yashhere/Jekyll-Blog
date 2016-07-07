@@ -15,7 +15,7 @@ comments: true
   Confused what I am talking about? Here, take a look at this gif to get a idea of how sudo can insult you for typing in the incorrect password.
 </p>
 
-  <img class="post-image" src="/img/blog/insult.gif" alt="insult" width="814" height="465" />
+  <img class="post-image" src="/assets/img/insult.gif" alt="insult" width="814" height="465" />
 
 <p style="text-align: left;">
   Now you might be thinking, why would anyone want to take insult? Afterall, nobody likes being insulted. For me, it is just another way to have fun with linux, and anyway this is way better than the plain &#8220;You entered a wrong password&#8221; error message. So let&#8217;s learn how to do this.

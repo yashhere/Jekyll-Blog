@@ -5,17 +5,13 @@
 @import "normalize";
 
 // Import fonts from Google
-@import url(https://fonts.googleapis.com/css?family=Raleway:200|Oxygen|Montserrat|Open+Sans:500|Cabin);
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Sorts+Mill+Goudy:400,400i|Source+Code+Pro);
+
+// Import icons from fontastic
 @import url(https://file.myfontastic.com/dSdPJGEFUgx3CBxPv3Buyi/icons.css);
 
 // Site configuration
 @import "config";
-
-// Modules
-// @import "modules/buttons";
-// @import "modules/forms";
-// @import "modules/tables";
-// @import "modules/syntax";
 
 // Import Partials
 @import "partials/typography";
@@ -25,5 +21,5 @@
 // // Mobile up base styles
 @import "breakpoints/mobileup";
 
-// Import media queries add more as you desire
+// Import media queries
 @media only screen and (min-width: 800px) { @import "breakpoints/800up";}
