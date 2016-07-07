@@ -6,33 +6,33 @@ layout: default
 {% assign minutes = 1 %}
 {% endif %}
 
-<div class="header post">
-    <h1>{{ page.title }}</h1>
-    <div class="meta">
-          <p>{{ site.owner.name }} / <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time> / {% if page.minutes %}
-                {{ page.minutes }} {{ site.text.post.minute_read }}
-            {% else %}
-                {{ minutes }} {{ site.text.post.minute_read }}
-            {% endif %} min read / in {{ page.categories}}
+<div class="post">
+    <div class="title">
+        <h1>{{ page.title }}</h1>
+        <div class="meta">
+              <p>{{ site.owner.name }} / <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time> / {% if page.minutes %}
+                    {{ page.minutes }} {{ site.text.post.minute_read }}
+                {% else %}
+                    {{ minutes }} {{ site.text.post.minute_read }}
+                {% endif %} min read / in {{ page.categories}}
+        </div>
     </div>
-</div>
 
-<section class="container1">
-  <div class="content">
-    <div style="font-family: 'Open Sans'; font-weight: 500;">
+    <div class="post-text">
+    <div>
       {{ content }}
     </div>
-  </div>
-</section>
+    </div>
 
-<div class="divider"></div>
+    <div class="hr"></div>
 
 
-{% if site.disqus_shortname and page.comments == true %}
-    <section class="comments">
-        <h1 class="comments-header">Comments</h1>
-        <div id="disqus_thread">
-            {% include disqus_comments.html %}
-        </div>
-    </section>
-{% endif %}
+    {% if site.disqus_shortname and page.comments == true %}
+        <section class="comments">
+            <h1 class="comments-header">Comments</h1>
+            <div id="disqus_thread">
+                {% include disqus_comments.html %}
+            </div>
+        </section>
+    {% endif %}
+</div>

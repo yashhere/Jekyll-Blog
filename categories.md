@@ -8,7 +8,7 @@ title: Categories
 <div class="tags">
   <div class="tags-list">
     {% for tag in site.categories %}
-    <a href="#{{ tag[0] | slugify }}" class="category"><span class="icon-tag"></span>{{ tag[0] }}</a>
+    <a href="#{{ tag[0] | slugify }}" class="category">{{ tag[0] }}</a>
     {% endfor %}
   </div>
   <hr/>
@@ -17,12 +17,12 @@ title: Categories
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
     <ul class="tags-posts">
       {% for post in tag[1] %}
-        <a class="post-title" href="{{ post.url }}">
       <li>
-        {{ post.title }} | 
-      <small class="post-date">{{ post.date | date_to_string }}</small>
+        <a class="post-title" href="{{ post.url }}">
+        <strong>{{ post.title }}</strong><br />
+        <small class="post-date">{{ post.date | date_to_string }}</small>
+        </a>
       </li>
-      </a>
       {% endfor %}
     </ul>
     {% endfor %}
@@ -35,7 +35,7 @@ title: Categories
     <a href="#{{ tag[0] | slugify }}" class="category"><span class="icon-tag"></span>{{ tag[0] }}</a>
     {% endfor %}
  </div>
-	
+
 <div class="container">
 
 <div class="row">

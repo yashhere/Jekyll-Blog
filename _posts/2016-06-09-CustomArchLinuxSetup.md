@@ -14,7 +14,7 @@ When I first installed Arch, I had several choices. I tried xfce and gnome as my
 
 So I end up going the route of building something up from scratch using Openbox as a base. At this point I have a fast, lightweight desktop that is extremely stable and is truly my desktop as I have built it from the ground up choosing every application.
 
-<img class="post-image" src="/img/blog/desktop.jpg" alt="desktop" width="814" height="465" />
+<img class="post-image" src="/assets/img/desktop.jpg" alt="desktop" width="814" height="465" />
 
 ----
 
@@ -81,7 +81,8 @@ In order to have [<code>obmenu-generator (AUR)</code>](https://aur.archlinux.org
 
 <pre>&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;openbox_menu&gt;
-	&lt;menu id="root-menu" label="OpenBox 3" execute="/usr/bin/obmenu-generator"&gt;&lt;/menu&gt;
+    &lt;menu id="root-menu" label="OpenBox 3" execute="/usr/bin/obmenu-generator"&gt;
+    &lt;/menu&gt;
 &lt;/openbox_menu&gt;
 </pre>
 

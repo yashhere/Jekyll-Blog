@@ -4,11 +4,10 @@
 
 <body>
     {% include header.html %}
-    <div class="content">
-      <div class="container">
-         {{ content }}
-      </div>
-   </div>
+
+    {{ content }}
+
+    {% include footer.html %}
     {% include google_analytics.html %}
     {% include scripts.html %}
 </body>
