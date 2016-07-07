@@ -7,7 +7,7 @@
             <span></span>
             <span></span>
         </div>
-        <div class="responsive-menu">
+        <div class="responsive-menu normal">
             <ul>
                 {% for page in site.pages_list %}
                   <li><a href="{{ page[1] }}">{{ page[0] }}</a></li>
@@ -16,11 +16,9 @@
         </div>
     </h3>
 
-    <div class="clearfix"></div>
-
     <div class="logo">
-        <h1 class="name"><a href="{{ site.url }}">Yash's Blog</h1>
-
+        <h1 class="name"><a href="{{ site.url }}">Yash's Blog</a></h1>
+        <div class="hr"></div>
         <ul class="social">
             <li>
                 <a href="https://www.quora.com/profile/Yash-Agarwal-140" target="_blank">

@@ -21,10 +21,7 @@ comments: true
   Now you might be thinking, why would anyone want to take insult? Afterall, nobody likes being insulted. For me, it is just another way to have fun with linux, and anyway this is way better than the plain &#8220;You entered a wrong password&#8221; error message. So let&#8217;s learn how to do this.
 </p>
 
-<h2 style="text-align: left;">
-</h2>
-
-<h2 style="text-align: left; font-family: cabin;">
+<h2 style="font-style: italic">
   <strong>Enable insults in sudo</strong>
 </h2>
 
@@ -42,7 +39,7 @@ Now save the file. If you are using vim then use Ctrl+X to save the file and qui
 
 &nbsp;
 
-<img class="post-image" src="/img/blog/sudoers.png" alt="Sudoers Configuration File" width="814" height="465" />
+<img class="post-image" src="/assets/img/sudoers.png" alt="Sudoers Configuration File" width="814" height="465" />
 
 Once you have saved the file, go to terminal and type the following command to clear the old password from sudo memory
 

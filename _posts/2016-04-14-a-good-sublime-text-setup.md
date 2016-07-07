@@ -21,7 +21,7 @@ Spending your time in actually understand what is happening behind the scenes in
 
 So first, take some background of what we are going to do today. I am using Sublime Text 3 &#8211; dev version, but most of the instructions are similar for Sublime Text 2 also.
 
-Okay, first open the sublime text, then go to Preference -> Settings &#8211; User.
+Okay, first open the sublime text, then go to Preference &#8211;> Settings &#8211;> User.
 
 So this is your configuration file where you can put all your custom preferences. There are other configuration files also, which can be found in Preferences.
 

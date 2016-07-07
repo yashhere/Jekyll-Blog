@@ -45,7 +45,7 @@ kramdown:
 
 pages_list:
   About: '/about'
-  Academics: '/academics'
+  # Academics: '/academics'
   Archive: '/archive'
   Categories: '/categories'
 #  Tags: '/tags'
