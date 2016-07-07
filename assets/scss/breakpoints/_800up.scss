@@ -1,9 +1,34 @@
-body {
+.header {
     @include container;
+    .menu-btn {
+        display: none !important;
+    }
+    .responsive-menu {
+        display: inline;
+        text-align: center;
+        ul {
+            @include container(1000px);
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            li {
+                background: transparent;
+                border-bottom: none;
+                margin: 0;
+                display: inline-block;
+                padding: 0 5px;
+            }
+        }
+    }
+
+    h1 {
+        text-align: center;
+        padding: 0 gutter();
+    }
 }
 
-
 .content {
+    @include container(70%);
     padding-top: 0;
     position: relative;
     z-index: 1;
@@ -20,7 +45,41 @@ body {
     }
 }
 
-.container {
-    @include container(800px);
-    padding: 0;
+.hr {
+    @include container(80%);
+}
+
+.post {
+    @include container(70%);
+    .post-text {
+        @include container(90%);
+    }
+    .post-image {
+        @include container(90%);
+        display: block;
+        height: auto;
+    }
+}
+
+.comments {
+    @include container(60%);
+    padding: 0 gutter();
+}
+
+.page {
+    @include container(70%);
+    padding: 0 gutter();
+    .page-text {
+        @include container(85%);
+
+        h1 {
+            font-size: 120%;
+            text-align: center;
+        }
+    }
+    .page-image {
+        @include container(80%);
+        display: block;
+        height: auto;
+    }
 }

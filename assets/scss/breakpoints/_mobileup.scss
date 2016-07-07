@@ -19,6 +19,7 @@ body {
     font-size  : 125.5%; // 18px base font size
     color      : $text-color;
     overflow-x : hidden;
+    height: auto;
 }
 
 blockquote {
@@ -84,7 +85,6 @@ a {
 }
 
 .header {
-    /* border: 1px solid red; */
     @include container;
     ul {
         margin: 0;
@@ -155,8 +155,7 @@ a {
         @include container(50%);
         font-size: 2em;
         font-weight: bold;
-        border: 3px solid $background-color;
-        padding: 0.1em 0;
+        padding: 0.1em 0.1em;
     }
 
     .day {
@@ -216,7 +215,7 @@ a {
     }
 
     a:hover {
-        color: darken($link-color, 20%);
+        color: lighten($link-color, 20%);
         text-decoration: underline;
     }
 
@@ -244,6 +243,11 @@ a {
     }
 }
 
+.comments {
+    @include container(700px);
+    padding: 0 gutter();
+}
+
 .page {
     @include container(700px);
     padding: 0 gutter();
@@ -257,7 +261,7 @@ a {
     }
 
     a:hover {
-        color: darken($link-color, 20%);
+        color: lighten($link-color, 20%);
         text-decoration: underline;
     }
 
@@ -294,9 +298,19 @@ a {
         background-color: $category-bg;
         font-size: 80%;
     }
+
+    .categories {
+        a {
+            color: $text-color;
+        }
+        a:hover {
+            color: lighten($link-color, 20%);
+        }
+    }
 }
 
 .archive {
+    @include container(700px);
     .datetime {
         font-family: $sans-serif;
         // font-size: 16px;
@@ -328,6 +342,6 @@ a {
     }
 
     a:hover {
-        color: darken($link-color, 15%);
+        color: lighten($link-color, 15%);
     }
 }

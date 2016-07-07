@@ -5,7 +5,7 @@ title: Categories
 ---
 
 
-<div class="tags">
+<div class="tags categories">
   <div class="tags-list">
     {% for tag in site.categories %}
     <a href="#{{ tag[0] | slugify }}" class="category">{{ tag[0] }}</a>
