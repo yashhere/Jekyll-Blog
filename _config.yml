@@ -2,7 +2,7 @@ title:            Yash Agarwal
 description:      "Yash's Blog"
 disqus_shortname: theyashagarwal
 
-baseurl: theyashagarwal.me/
+baseurl:
 url: https://theyashagarwal.me
 enforce_ssl: theyashagarwal.me
 
