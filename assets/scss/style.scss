@@ -4,17 +4,13 @@
 // Reset using Normalize
 @import "normalize";
 
-// Import fonts from Google
-@import url(https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Sorts+Mill+Goudy:400,400i|Source+Code+Pro);
-
-// Import icons from fontastic
-@import url(https://file.myfontastic.com/dSdPJGEFUgx3CBxPv3Buyi/icons.css);
-
 // Site configuration
 @import "config";
 
 // Import Partials
 @import "partials/grid";
+@import "partials/fonts";
+@import "partials/icons";
 
 // // Mobile up base styles
 @import "breakpoints/mobileup";
