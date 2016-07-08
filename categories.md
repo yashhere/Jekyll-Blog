@@ -20,8 +20,8 @@ title: Categories
       <li>
         <a class="post-title" href="{{ post.url }}">
         <strong>{{ post.title }}</strong><br />
-        <small class="post-date">{{ post.date | date_to_string }}</small>
         </a>
+        <small class="post-date">{{ post.date | date_to_string }}</small>
       </li>
       {% endfor %}
     </ul>
