@@ -2,9 +2,7 @@ title:            Yash Agarwal
 description:      "Yash's Blog"
 disqus_shortname: theyashagarwal
 
-baseurl:
-url: https://theyashagarwal.me
-enforce_ssl: theyashagarwal.me
+baseurl: Jekyll-Blog
 
 # Author information
 author :
