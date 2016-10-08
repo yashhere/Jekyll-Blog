@@ -11,7 +11,7 @@ I was introduced to the world of Linux and open source in my college. After that
 - [tmux](https://tmux.github.io/): terminal multiplexer.
 - [terminator](https://wiki.archlinux.org/index.php/Terminator): A terminal for geeks.
 - [zsh](http://www.zsh.org/): Instantly awesome Zsh using [Prezto](https://github.com/sorin-ionescu/prezto).
-- [Sublime Text](https://www.sublimetext.com/): Vim is not great as and IDE.
+- [Sublime Text](https://www.sublimetext.com/): Vim is not great as an IDE.
 - [Grunt](http://gruntjs.com/): Development is not easy without this.
 
 

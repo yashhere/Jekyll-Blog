@@ -28,4 +28,42 @@ I'll be talking about three init systems, which are most common ones:
 - Systemd
 
 ### System V
-System V is an older init system. The most common Linux distributions having this init system are Debian 6, Ubuntu 9.04 and CentOS 5.
+System V is an older init system. The most common Linux distributions having this init system are Debian 6, Ubuntu 9.04 and CentOS 5. System V init process starts every process serially, i.e. new task starts only if the startup of previous task was successful. This often causes unnecessary delay and long booting time.
+You can see if your system uses system V by typing:
+
+```which service```
+
+
+```/usr/sbin/services```
+
+If you get the above output, then your system has System V.
+
+To start a service(say xyz) using System V, type:
+
+```service xyz start```
+
+to stop a service, type:
+
+```service xyz stop```
+
+In a similar fashion, you can restart, reload, services, check status of any service. To check the status of all services at once, type:
+
+```service --status-all```
+
+    [ + ]  acpid
+    [ - ]  anacron
+    [ + ]  apache2
+    [ - ]  apparmor
+    [ ? ]  apport
+    [ + ]  avahi-daemon
+    [ + ]  bluetooth
+    [ - ]  brltty
+    [ ? ]  console-setup
+    [ + ]  cron
+    [ + ]  cups
+    ...
+    
+"+" means that the service is started, "-" means that the service is stopped and the "?" means that system V does not know about this process. It most probably means that the service is managed by some other init system.
+
+
+TODO runlevels

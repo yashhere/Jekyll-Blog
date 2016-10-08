@@ -13,7 +13,7 @@ I have a wonderful family, my parents and a [brother](https://www.facebook.com/p
 
 In my "spare time", I like walking alone, in random thoughts and sleeping. I don't have many friends cause I believe that I am very bad in judging people (for me, Prevention is better than Cure).
 
-My current operating system is [Arch Linux](https://www.archlinux.org/){:target="_blank"} on [Openbox](http://openbox.org/wiki/Main_Page){:target="_blank"}, a tiling window manager. But that isn't custom enough, so I started building my own operating system, using [(B)LFS](http://www.linuxfromscratch.org/){:target="_blank"} project. Till now it has been a awesome experience, which has taught me more about Linux based operating systems, than most Linux enthusiasts learn in a lifetime.
+My current operating system is [Arch Linux](https://www.archlinux.org/){:target="_blank"} on [Openbox](http://openbox.org/wiki/Main_Page){:target="_blank"}, a tiling window manager. ~~But that isn't custom enough, so I started building my own operating system, using [(B)LFS](http://www.linuxfromscratch.org/){:target="_blank"} project. Till now it has been an awesome experience~~ It was an awesome experience , which has taught me more about Linux based operating systems, than most Linux enthusiasts learn in a lifetime.
 
 Now that you know so much about me, [you should say hi!](https://twitter.com/theyashagarwal){:target="_blank"}
 
