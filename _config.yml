@@ -16,12 +16,11 @@ timezone:    Asia/Kolkata
 future:      true
 highlighter: rouge
 line_numbers: true
-#incremental: true
+incremental: true
 markdown:    kramdown
 gems:
 #    - jekyll-paginate
     - jekyll-gist
-    - jemoji
 #paginate:    4
 #paginate_path: "/page:num/"
 
@@ -50,9 +49,9 @@ pages_list:
   Categories: '/categories'
 #  Tags: '/tags'
   Almanac: '/almanac'
-  CV: '/resume.pdf'
+  CV: '/cv.pdf'
   Behind The Scenes: '/Behind_the_scenes'
   Feed: '/feed.xml'
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "/assets/scss"]
+include: [".htaccess", ".gitlab-ci.yml"]
+exclude: ["lib", "config.rb", "Capfile", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "/assets/scss"]
