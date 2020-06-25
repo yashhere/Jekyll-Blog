@@ -5,7 +5,6 @@
 *.psd
 *.db
 .DS_Store
-.ruby-version
 letsencrypt-setup.html
 config.rb
 _config.scss
