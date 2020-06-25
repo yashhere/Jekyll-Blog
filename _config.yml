@@ -1,28 +1,28 @@
-title:            Yash Agarwal
-description:      "Yash's Blog"
-disqus_shortname: theyashagarwal
+title: Yash Agarwal
+description: "Yash's Blog"
+disqus_shortname: yashhere
 
-baseurl: /Jekyll-Blog
+# baseurl: /
 
 # Author information
-author :
-  name :           Yash Agarwal
-  email :          yashagarwaljpr@gmail.com
+author:
+  name: Yash Agarwal
+  email: yashagarwaljpr@gmail.com
 
 google_analytics: "UA-75475356-1"
-timezone:    Asia/Kolkata
-future:      true
+timezone: Asia/Kolkata
+future: true
 highlighter: rouge
 line_numbers: true
 incremental: true
-markdown:    kramdown
+markdown: kramdown
 gems:
-#    - jekyll-paginate
-    - jekyll-gist
+  - jekyll-paginate
+  - jekyll-gist
 #paginate:    4
 #paginate_path: "/page:num/"
 
-permalink:   /:title/
+permalink: /:title/
 
 kramdown:
   auto_ids: true
@@ -41,15 +41,33 @@ kramdown:
     coderay_css: class
 
 pages_list:
-  About: '/about'
+  About: "/about"
   # Academics: '/academics'
-  Archive: '/archive'
-  Categories: '/categories'
-#  Tags: '/tags'
-  Almanac: '/almanac'
-  CV: '/cv.pdf'
-  Behind The Scenes: '/Behind_the_scenes'
-  Feed: '/feed.xml'
+  Archive: "/archive"
+  Categories: "/categories"
+  #  Tags: '/tags'
+  Almanac: "/almanac"
+  CV: "/cv.pdf"
+  Behind The Scenes: "/Behind_the_scenes"
+  Feed: "/feed.xml"
 
 include: [".htaccess", ".gitlab-ci.yml"]
-exclude: ["lib", "config.rb", "Capfile", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "/assets/scss"]
+exclude:
+  [
+    "lib",
+    "config.rb",
+    "Capfile",
+    "log",
+    "Rakefile",
+    "Rakefile.rb",
+    "tmp",
+    "less",
+    "*.sublime-project",
+    "*.sublime-workspace",
+    "test",
+    "spec",
+    "Gruntfile.js",
+    "package.json",
+    "node_modules",
+    "/assets/scss",
+  ]
